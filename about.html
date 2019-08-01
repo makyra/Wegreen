@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="tipslist.html">
+    <link href="events.html">
+    <link href="about.html">
+    <link href="DIY.html">
+    <link href="about.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <h1>
+    <img class="logo" src="updatedlogo.png">
+    <p>
+    <h4>we help y'all help the environment</h4>
+    </p>
+    <p>
+      <button class = "button" onclick = "homepage()"> Homepage </button>
+      <button class = "button" onclick = "about()"> About</button>
+      <button class = "button" onclick = "challenge()"> 30 Day Challenge</button>
+      <button class = "button" onclick = "tipslist()">Tip List</button>
+      <button class = "button" onclick = "events()"> Events </button>
+      <button class = "button" onclick = "DIY()"> DIY's </button>
+      <script>
+        function tipslist(){
+          location.replace("tipslist.html")
+        }
+
+        function events(){
+          location.replace("events.html")
+        }
+
+        function DIY(){
+          location.replace("DIY.html")
+        }
+
+        function about(){
+          location.replace("about.html")
+        }
+
+        function homepage(){
+          location.replace("homepage.html")
+        }
+        function challenge(){
+          location.replace("calendar.html")
+        }
+      </script>
+    </p>
+  </h1>
+  <h1>About Us</h1>
+  <hr>
+  <h2>Statistics</h2>
+  <p>
+  <ul type="circle">
+    <li>Two-thirds of extreme weather events in the last 20 years were influenced by humans.</li>
+    <br>
+    <li>120,000 square kilometres of tropical forest were lost in 2018.</li>
+    <br>
+    <li>Up to 90 percent of coral reefs will disappear. Coral reefs are an important part of the sea life ecosystem. They provide food for fish species and buffer coastlines against storms and erosion. An increase as tiny as 1.5 degrees Celsius will bring near total decimation of this vital part of the ocean.</li>
+    <br>
+    <li>Sea levels are expected to rise 1 to 4 feet in the next 80 years due to melting ice in Antarctic regions. This will cause damaging floods and other ecological disasters that are bound to negatively affect humans as well as multiple species of animals.</li>
+    <br>
+    <li>A rise in temperature increases air pollution and other allergy provoking substances in our environment.</li>
+    <br>
+    <li>Fossil fuel use is the primary source of CO2. CO2 can also be emitted from direct human-induced impacts on forestry and other land use, such as through deforestation, land clearing for agriculture, and degradation of soils. Likewise, land can also remove CO2 from the atmosphere through reforestation, improvement of soils, and other activities.</li>
+    <br>
+    <li>Industry is responsible for about 21% of 2010 global greenhouse gas emissions.</li>
+    <br>
+  </ul type="circle">
+  </p>
+
+<h6>
+  <img id="fossil" src="2014_fossil_fuel.png" width="275px" height="275px">
+  <img id="trends" src="emission_trends.png" width="462px" height="275px">
+  <img id="global" src="global_emissions.png" width="275px" height="275px">
+  <a class="source" href= "https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data">Source</a>
+</h6>
+<hr>
+<h2>Founders</h2>
+<h5>we green was created during our time at the Girls Who Code 2019 Summer Immersion Program.
+We wanted to create a site which enabled Austin teens to help the environment.
+We hope our website raises awareness about environmental issues and encourages Austin teens to pick up eco-friendly habits.</h5>
+
+<h6>
+  <img src = "natalie.png"
+  id = "natalie"
+  width=400px;
+  height=275px;>
+  <p  class="founders" id="nataliebutton" onmouseover="nataliefunction()" onmouseout="natalie1funtion()">Natalie Zeakes</p>
+  <script>
+  document.getElementById("nataliebutton").addEventListener("mouseover", nataliefunction);
+
+  function nataliefunction() {
+  document.getElementById("nataliebutton").innerHTML =  "Natalie is a rising junior at LASA HS in Austin, TX. She enjoys traveling with her family and friends and exploring new places around Austin. She loves trying new foods as well as attempting new recipes. She plays soccer and used to be an avid reader until reading for pleasure became a luxury. ";
+  }
+  document.getElementById("nataliebutton").addEventListener("mouseout", natalie1funtion);
+
+  function natalie1funtion() {
+  document.getElementById("nataliebutton").innerHTML = "Natalie Zeakes";
+  }
+
+  </script>
+
+
+  <img src = "eden.jpg"
+  id = "eden"
+  width=400px;
+  height=275px;>
+  <p class="founders" id="edenbutton" onmouseover="edenfunction()" onmouseout="eden1funtion()">Eden Soto</p>
+  <script>
+  document.getElementById("edenbutton").addEventListener("mouseover", edenfunction);
+
+  function edenfunction() {
+  document.getElementById("edenbutton").innerHTML = "Eden is currently a rising senior at Weiss High School. She likes to go on road trips with family and friends, and loves to play board games and video games.";
+  }
+  document.getElementById("edenbutton").addEventListener("mouseout", eden1funtion);
+
+  function eden1funtion() {
+  document.getElementById("edenbutton").innerHTML = "Eden Soto";
+  }
+  </script>
+
+
+
+  <img  src = "makyra.jpg"
+  id = "makyra"
+  width=400px;
+  height=275px;
+  >
+  <p class="founders" id="makyrabutton" onmouseover="makyrafunction()" onmouseout="makyra1funtion()">Makyra Kim</p>
+  <script>
+  document.getElementById("makyrabutton").addEventListener("mouseover", makyra1funtion);
+
+  function makyra1funtion() {
+  document.getElementById("makyrabutton").innerHTML = "Makyra is currently a rising junior at Westlake High School. She loves taking pictures and listening to music. She enjoys photography, and would like to travel the world to take lots. She especially wants to see the aurora borealis with her own eyes. Her favorite TV show is Skam and her favorite movie is Little Forest.";
+  }
+  document.getElementById("makyrabutton").addEventListener("mouseout", makyrafunction);
+
+  function makyrafunction() {
+  document.getElementById("makyrabutton").innerHTML = "Makyra Kim";
+  }
+  </script>
+
+
+
+  <img src = "pearl.jpg"
+  id = "pearl"
+  width=400px;
+  height=275px;>
+  <p class="founders" id="pearlbutton" onmouseover="pearlfunction()" onmouseout="pearl1funtion()">Pearl Morosky</p>
+  <script>
+  document.getElementById("pearlbutton").addEventListener("mouseover", pearlfunction);
+
+  function pearlfunction() {
+  document.getElementById("pearlbutton").innerHTML = "Pearl is a rising junior at LASA HS. She enjoys playing lacrosse, practicing yoga, and reading, particularly the New York Times. Her favorite TV show is Twin Peaks, and her favorite vacation spot is the White Mountains in New Hampshire.";
+  }
+  document.getElementById("pearlbutton").addEventListener("mouseout", pearl1funtion);
+
+  function pearl1funtion() {
+  document.getElementById("pearlbutton").innerHTML = "Pearl Morosky";
+  }
+  </script>
+
+  </h6>
+
+  <hr>
+  <p>
+    <a href="https://www.instagram.com/wee._.green/"><img class = "icon" src="instagram.png" ></a>
+  </p>
+  <p>
+    <mail><strong>Contact us at <a class="mailc" href="mailto:w3.gr33n@gmail.com">w3.gr33n@gmail.com</a></strong></mail>
+  </p>
+
+  </body>
+</html>
